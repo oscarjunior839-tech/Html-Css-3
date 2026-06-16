@@ -1,0 +1,18 @@
+     @charset="UTF-8"
+     <style>
+        body{
+            background-color:pink;
+            font-family: Arial, Helvetica, sans-serif;
+            font: size 20px;
+        }
+        h1{
+            color:black;
+            background-color:violet;
+        }
+        h2{
+            color:red;
+        }
+        p{
+            text-align: justify;
+        }
+    </style>  

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>group tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkblue;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        footer{
+            background-color: aqua;
+            color: beige;
+            text-align: center;
+            padding: 0px;;
+            margin: 0px;
+        }
+        footer >p{
+            margin: 0px;
+        }
+        article{
+            background-color: brown;
+        }
+        article > aside{
+            background-color: rgb(86, 80, 80);
+        }
+        nav{
+            background-color: rgb(3, 3, 72);
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a{
+            text-decoration: underline;
+            color: white;
+            font-weight: bold;
+            max-width: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        h1{
+            background-color: white;
+        }
+        article{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site </h1>
+        <nav>
+            <a href="#">links</a>
+            <a href="#">links </a>
+            <a href="#">links</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto"> desporto e moda actual</section>
+        <section id="noticias">
+            <article></article>
+            <article>
+                <h1>noticias sobre o brasil</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos hic odit rerum quas rem voluptate ducimus voluptates labore officiis ratione quibusdam, neque distinctio dolor, veritatis officia nostrum! Distinctio, optio ratione!</p>
+                <aside> <p>artigo escrito por oscar junior</p> </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>desenvolvido por oscar junior</p>
+    </footer>
+    
+</body>
+</html>

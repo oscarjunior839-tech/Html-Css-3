@@ -1,0 +1,27 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+body{
+    background-image: linear-gradient(to right, #2A0081,#211142);
+}
+        main{
+    background-color: bisque;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(86, 44, 44);
+        }
+
+    </style>
+h1{
+    color: beige;
+}
+H2{
+    color: aqua;
+}
+p{
+    text-align: justify;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widt, initial-scale=1.0">
+    <title>medias em html5</title>
+</head>
+<body>
+    <h1> imagens dinamicas </h1>
+    <p> tenta abrir essas imagens em dispositivo diferente </p>
+    <picture>
+        <img src="imagens/bg-desktop-light.jpg" alt="imagem" width="100%" alt="image/jpg">
+         <source media="(max-width:320 px )" srcset="imagens/bg-desktop-light" type="image/jpg"
+        <source media="(max-width:750 px)" srcset="imagens/bg-mobile.jpg" type="image/jpg">
+         <source media="(max-width:1000px )" srcset="imagens/bg-desktop.jpg" type="image/jpg">
+        <img src="imagens/bg-desktop.jpg" alt="imagens flexivel">
+    </picture>
+  <h1>  reproduzindo audio</h1>
+  <p> vamos aprender a reproduzir audio em html5 </p>
+  <audio src="midia/CENTRAL CEE FT. LIL BABY - BAND4BAND (MUSIC VIDEO) [pDddlvCfTiw].mp3" controls autoplay></audio>
+  <p>outra musica </p>
+  <audio src="midia/CENTRAL CEE ANTISOCIAL (alliance) [-J4hGQhqPvg].mp3" controls autoplay>
+    
+  </audio>
+</body>
+</html>
