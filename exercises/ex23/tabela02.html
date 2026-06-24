@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 600px;
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            padding:10px;
+        }
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        td.numero{
+            text-align:right;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso das tabelas grandes</h1>
+    <table>
+        <caption>Populacao por estado</caption>
+        <thead>
+             <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">Populacao</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="numero">54916</td>
+            </tr>
+            <tr>
+                <td>Minais gerais</td>
+                <td class="numero">211689</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="numero">690579</td>
+            </tr>
+            <tr>
+                <td>baia</td>
+                <td class="numero">458086</td>
+            </tr>
+            <tr>
+                <td>Espirito santo</td>
+                <td class="numero">278549</td>
+            </tr>
+            <tr>
+                <td>Amazona</td>
+                <td class="numero">18808</td>
+            </tr>
+            <tr>
+                <td>Paraiba</td>
+                <td class="numero">68945758</td>
+            </tr>
+            <tr>
+                <td>mato groso</td>
+                <td class="numero">679879</td>
+            </tr>
+            <tr>
+                <td>Rio grandes do Norte</td>
+                <td class="numero">4647963</td>
+            </tr>
+            <tr>
+                <td>Alagoas </td>
+                <td class="numero">8565694</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td><strong>210.4589.696</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
