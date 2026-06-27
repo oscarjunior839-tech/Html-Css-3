@@ -19,20 +19,21 @@
 </head>
 <body>
     <table>
-        <thead>
-          <tr>
-            <th rowspan="2">Area</th>
-            <th rowspan="2">Disciplina</th>
-            <th rowspan="2"> media</th>
-          </tr>
-          <tr>
-            <th>nota1</th>
-            <th>nota2</th>
-          </tr>
+       <thead>
+    <tr>
+        <th rowspan="2" scope="col">Área</th>
+        <th rowspan="2" scope="col">Disciplina</th>
+        <th colspan="2" scope="colgroup">Notas</th>
+        <th rowspan="2" scope="col">Média</th>
+    </tr>
+    <tr>
+        <th >Nota 1</th>
+        <th>Nota 2</th>
+    </tr>
         </thead>
         <tbody>
             <tr>
-            <th rowspan="4">Exatas</th>
+            <th rowspan="4" scope="rowgroup">Exatas</th>
             <td>Matematica</td>
             <td>00</td>
             <td>00</td>
@@ -58,11 +59,11 @@
             </tr>
 
             <tr>
-                <th colspan="5">Media exata</th>
-                <td>000</td>
+                <th colspan="4" scope="row">Media exata</th>
+                <td >000</td>
             </tr>
             <tr>
-            <th rowspan="2">Humanas </th>
+            <th rowspan="2" scope="rowgroup">Humanas </th>
             <td>historia</td>
              <td>00</td>
             <td>00</td>
@@ -75,7 +76,7 @@
                 <td>00</td>
                 </tr>
                 <tr>
-                    <th colspan="4">media humana </th>
+                    <th colspan="4" scope="row">media humana </th>
                     <td>00</td>
                 </tr>
 
