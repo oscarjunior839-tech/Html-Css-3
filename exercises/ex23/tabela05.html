@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercios de tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+
+        }
+        col.cnome{
+            background-color:yellow ;
+        }
+        col.csexo,col.cidade{
+            background-color: red;
+        }
+        col.cProfisao{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade ">
+            <col class="cProfisao">
+        </colgroup>
+        <caption>Cadastro </caption>
+        <tr>
+         <th scope="col">Nome</th>
+         <th scope="col"> sexo</th>
+         <th scope="col"> idade</th>
+         <th scope="col"> Profisao</th>
+        </tr>
+        <tr>
+            <td>Dona Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td> joana</td>
+             <td> F</td>
+              <td>20</td>
+               <td>peixeira</td>
+        </tr>
+        <tr>
+             <td>marcelino</td>
+              <td>M</td>
+               <td>58</td>
+                <td> bombeiro</td>
+        </tr>
+        <tr>
+             <td>Fernando</td>
+              <td>M</td>
+               <td>21</td>
+                <td>Fotografo</td>
+        </tr>
+        <tr>
+             <td>Antonica</td>
+              <td>F</td>
+               <td>32</td>
+                <td>ferreiro</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
