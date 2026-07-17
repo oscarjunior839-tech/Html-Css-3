@@ -1,0 +1,5 @@
+@charset "UTF-8";
+/*Aparelho deitado (lasscape)*/
+body{
+    background:url("../imagens/cev-landscape.jpg") no-repeat center center fixed; 
+}
