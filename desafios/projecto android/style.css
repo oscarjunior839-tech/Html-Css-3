@@ -1,6 +1,6 @@
-@charset="UTF-8";
+@charset "UTF-8";
 @import url(https://fonts.google.com/specimen/Bebas+Neue?preview.script=Latn);
-font-face{
+@font-face{
     font-family: 'Android';
     src: url(https:...//fonts.google.com/?query=Android&preview.script=Latn);
     font-weight: normal;
@@ -17,7 +17,7 @@ body{
     --core:#2E3D36;
     
     --font-padrao: Arial,verdana, helvetica,sans-serif;
-    font-destaque: bebas neue,cursive;
+    --font-destaque: 'Bebas Neue', cursive;
 }
 a.externo::after{
     content: '\1F517';
@@ -63,7 +63,7 @@ main{
     border-bottom-right-radius: 10px;
 }
 main p{
-    margin: 15px opx;
+    margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
     line-height: 2em;
@@ -76,7 +76,7 @@ main strong{
 
 }
 main a{
-    text-decoration: non;
+    text-decoration: none;
     font-weight: bold;
     color: #2E3D36;
     background-color: #20D681;
@@ -104,7 +104,7 @@ nav >a:hover{
     font-weight: bold;
 }
 main img{
-    width: 100px;
+    width: 100%;
 }
 main h2{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
