@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .container {
+            display: flex;
+            flex-flow:row wrap;
+        }
+        .item {
+            flex: 1;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 0px;
+            text-align: center;
+        }
+        #i1 {
+       order: 4;
+        }
+        #i2{
+            order: -4;
+        }
+        #i3{
+            order: 6;
+        }
+        #i4{
+            order:3;
+        }
+        #i5{
+            order:1;
+        }
+        #i6{
+            order:5;
+        }
+        #i7{
+            order:7;
+        }
+        #i8{
+            order: 9;
+        }
+        #i9{
+            order:7;
+        }
+        #i10{
+            order:10;
+        }
+        #i11{
+            order:5;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item"id="i11"></div>
+        <div class="item"id="i2">2</div>
+        <div class="item"id="i2">3</div>
+        <div class="item"id="i3">4</div>
+        <div class="item"id="i4">5</div>
+        <div class="item"id="i5">6</div>
+        <div class="item"id="i6">7</div>
+        <div class="item"id="i7">8</div>
+        <div class="item"id="i8">1</div>
+        <div class="item"id="i9">2</div>
+        <div class="item"id="i10">3</div>
+        <div class="item"id="i11">4</div>
+    </div>
+        
+</body>
+</html>
