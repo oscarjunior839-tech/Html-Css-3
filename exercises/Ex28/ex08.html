@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>propriedade flex</title>
+    <style>
+         .container {
+            display: flex;
+            flex-flow:row nowrap;
+        }
+        .item {
+            flex:1;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 5px;
+            text-align: center;
+        }
+        #ia{
+            flex:1 0 150px;
+        }
+        #ib{
+            flex:0 2 150px;
+        }
+        #ic{
+            flex:0 2 150px;
+        }
+        #id{
+            flex: 1 1 150px;
+        }
+        </style>
+        
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="ia">A</A></div>
+        <div class="item" id="ib">B</B></div>
+        <div class="item" id="ic">C</div>
+        <div class="item" id="id">D</div>
+    </div>
+        
+</body>
+</html>
